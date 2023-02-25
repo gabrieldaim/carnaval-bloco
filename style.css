@@ -148,8 +148,6 @@ header form {
     margin-top: 4rem;
 }
 
-input {}
-
 .search-field {
     display: flex;
     align-items: center;
@@ -263,4 +261,39 @@ max-width: 38.4rem;
     color: #E45858;
     font-size: 2.4rem;
     opacity: 1;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .search{
+        flex-direction: column;
+    }
+
+    .top p{
+        font-weight: 900;
+    }
+
+    .top h1 span{
+        color: #371ea8;
+    }
+
+    section.cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2.2rem;
+    
+    }
+    }
+
+@media (max-width: 425px) {
+    section.cards{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2.2rem;
+        justify-items: center;
+    }
 }
