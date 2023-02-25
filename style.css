@@ -271,6 +271,7 @@ max-width: 38.4rem;
 @media (max-width: 768px) {
     .search{
         flex-direction: column;
+        margin-top: 1rem;
     }
 
     .top p{
@@ -295,5 +296,9 @@ max-width: 38.4rem;
         grid-template-columns: 1fr;
         gap: 2.2rem;
         justify-items: center;
+    }
+
+    .top h1{
+        font-size: 5rem;
     }
 }
